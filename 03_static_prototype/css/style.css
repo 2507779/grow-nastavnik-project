@@ -1,0 +1,54 @@
+/* style.css */
+/* --- Стили из нашего Брендбука --- */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1A1A1A; /* Темный графит */
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif; 
+}
+
+/* Основной CTA (Зеленый) */
+.button.primary {
+    background-color: #008000; /* Основной цвет */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Вторичный CTA (Желтый) */
+.button.secondary {
+    background-color: #FFC300; /* Вторичный цвет */
+    color: #1A1A1A;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+header {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+}
+/* Можете добавить больше CSS, чтобы сделать макет более точным */
